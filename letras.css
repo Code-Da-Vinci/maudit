@@ -78,17 +78,23 @@ body {
    grid-template-columns: 1fr 200px;
 }
 
-.article__parrafo {
+.article__parrafo,
+.article__adicional {
    display: flex;
    flex-direction: column;
    width: 100%;
    row-gap: 20px;
 }
 
-.article__letra {
+.article__letra,
+.article__parrafo-mod {
    color: var(--text2);
    font-size: 1.1rem;
    font-weight: 400;   
+}
+
+.article__parrafo-mod {
+   color: var(--text1);
 }
 
 .article__redes {
