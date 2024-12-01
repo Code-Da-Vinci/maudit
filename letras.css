@@ -1,12 +1,12 @@
 :root {
    --color0: #212121;
-   --color1: #595959;
-   --color2: #efefefe4;
+   /* --color1: #595959; */
+   /* --color2: #efefefe4; */
    --color3: #3c3c3c;
-   --color4: #fdfdfd;
+   /* --color4: #fdfdfd; */
    --grad1: #50fda497;
-   --grad2: #00d9ff8a;
-   --grad3: #d085f282;
+   /* --grad2: #00d9ff8a; */
+   /* --grad3: #d085f282; */
    --text1: #717171;
    --text2: #a38e41;
 }
@@ -118,12 +118,11 @@ body {
 .article__inst,
 .article__yt,
 .article__spot {
-   background-color: var(--color1);
+   background-color: var(--color3);
    color: var(--grad1);
    display: flex;
    font-size: 2rem;
    border-radius: 5px;
-   box-shadow: 0 0 5px var(--color3);
    padding: 10px;
 }
 
